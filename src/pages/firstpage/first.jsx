@@ -38,7 +38,7 @@ const FirstPage = () => {
             </div>
             <img
                 src={Image}
-                className={`absolute right-32 w-1/3 h-3/4 transition-all duration-1000 hover:rounded-l-full ${imagePosition}`}/>
+                className={`absolute right-32 w-1/3 h-3/4 object-cover transition-all duration-1000 hover:rounded-l-full ${imagePosition}`}/>
         </div>
     );
 };
